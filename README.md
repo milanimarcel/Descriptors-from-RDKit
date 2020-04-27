@@ -71,12 +71,14 @@ Partial charges are created due to the asymmetric distribution of electrons in c
  
 * **Chi4v**: From equations (5),(15) and (16) of Rev. Comp. Chem. vol 2, 367-422, (1991)
  
-* **HallKierAlpha**: The Hall-Kier alpha value for a molecule.Rev. Comput. Chem. 2:367-422 (1991).
+* **HallKierAlpha**: The Hall-Kier alpha value for a molecule. Rev. Comput. Chem. 2:367-422 (1991).
  
 * **Ipc**: the information content of the coefficients of the characteristic polynomial of 
 the adjacency matrix of a hydrogen-suppressed graph of a molecule.
  
-* **Kappa1**: Hall-Kier Kappa1 value
+* **Kappa1**: Kappa indices are calculated relative to the least branched (linear) and most
+branched (star) compounds with the same number of atoms as the molecule being
+investigated.
  
 * **Kappa2**: Hall-Kier Kappa2 value
  
@@ -84,7 +86,7 @@ the adjacency matrix of a hydrogen-suppressed graph of a molecule.
  
 * **LabuteASA**: Labute's Approximate Surface Area (ASA from MOE)	
  
-* **PEOE_VSA1**: 	MOE Charge VSA Descriptor 1 (-inf < x < -0.30) 
+* **PEOE_VSA1**: 	MOE(Molecular Operating Environment) Charge VSA Descriptor 1 (-inf < x < -0.30) 
  
 * **PEOE_VSA10**: 	MOE Charge VSA Descriptor 
  
@@ -382,7 +384,7 @@ the adjacency matrix of a hydrogen-suppressed graph of a molecule.
  
 * **fr_piperzine**: Number of piperzine rings
  
-* fr_priamide: Number of primary amides
+* **fr_priamide**: Number of primary amides
  
 * **fr_prisulfonamd**: Number of primary sulfonamides
  
