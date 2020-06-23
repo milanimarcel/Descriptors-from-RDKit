@@ -1,6 +1,6 @@
 ==============================================================
 
-**A brief description of descriptors in version beta of program**
+**A brief description of chemical descriptors in RDKit**
 
 ==============================================================
 
@@ -159,7 +159,7 @@ investigated.
 * **SlogP_VSA9**: MOE logP VSA Descriptor 9 ( 0.30 <= x < 0.40)
  
 * **TPSA**: The polar surface area (PSA) or topological polar surface area (TPSA) of a molecule is defined as the surface sum over all polar atoms or molecules, primarily oxygen and nitrogen, also including their attached hydrogen atoms. PSA is a commonly used medicinal chemistry metric for the optimization of a drug's ability to permeate cells. 
- 
+   
 * **EState_VSA1**: EState VSA  Descriptor 1 (-inf < x < -0.39)
  
 * **EState_VSA10**: EState VSA Descriptor 10 ( 9.17 <= x < 15.00)
